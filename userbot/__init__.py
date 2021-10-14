@@ -13,13 +13,16 @@ mafiaversion = "2.0.5"
 botversion = "0.1"
 mafiatelethon = "1.21.1"
 
+APP_ID = 2184829
+API_HASH = "6930b92388baabff4cb4a1d377085035"
+
 os.system("pip install aria2p")
 if Var.STRING_SESSION:
     session_name = str(Var.STRING_SESSION)
-    bot = TelegramClient(StringSession(session_name), Var.APP_ID, Var.API_HASH)
+    bot = TelegramClient(StringSession(session_name), APP_ID, API_HASH)
 else:
     session_name = "startup"
-    bot = TelegramClient(session_name, Var.APP_ID, Var.API_HASH)
+    bot = TelegramClient(session_name, APP_ID, API_HASH)
 
 
 CMD_LIST = {}
