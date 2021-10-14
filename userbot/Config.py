@@ -37,8 +37,8 @@ if ENV:
         MIRROR_ACE_API_KEY = os.environ.get("MIRROR_ACE_API_KEY", None)
         MIRROR_ACE_API_TOKEN = os.environ.get("MIRROR_ACE_API_KEY", None)
         # Telegram BOT Token from @BotFather
-        TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
-        TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", None)
+        TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", "2085098976:AAGY48s_cHk17EUU2pxKXWWxe845QnW1DHA")
+        TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", "RdpTest12229_bot")
         #spootifie
         SPOTIFY_USERNAME = os.environ.get("SPOTIFY_USERNAME", None)
         SPOTIFY_PASS = os.environ.get("SPOTIFY_PASS", None)
@@ -151,7 +151,7 @@ if ENV:
         UPSTREAM_REPO = os.environ.get(
             "UPSTREAM_REPO", "https://github.com/MafiaBotOP/MafiaBot"
         )
-        STRING_SESSION = os.environ.get("STRING_SESSION", None)
+        STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOJoBuyUrmvDKakDMbpQmRV-KAf7uk7mbgxT6bGBzCCs2DiiwcibQOhorzHliOisNIsBibjPjo9-2FU9j_3gODx5Bj_HhyKfnIhtz77ekDERNtq0Sbt_qdYh6z3Q9kOhvYvUeNrFv7xBC3VW2McH7JhKf1-lctFvZ4oYVdEhf1ivmX-lphsYK8t9AFnI-wegQ_Uo3xkPVq-DuPT9kf-I3sNO8RWMHiVsE46J5Uc7ychk5hJo1HXMlBnXvz2gD7KJGu0HO0lCG1w3h0K35NF63ybxq9912aSQnpfISHaTmKy5ZeStzGhLVXwAGXcyWbKX8ApiAe4sloYIQyIh8czG165iRr9g=")
         BOT_MODE = os.environ.get("BOT_MODE", "ON")
         BOT_TRIGGER = os.environ.get("BOT_TRIGGER", "^/")
         BOTMODE_LOG = int(os.environ.get("BOTMODE_LOG", False))
